@@ -27,7 +27,7 @@ body {
   font-size: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .h2 {
     font-size: 48px;
   }
@@ -113,7 +113,7 @@ body {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
 
     .b-right {
     position: relative;
