@@ -47,7 +47,7 @@
 
 .b-position {
   position: relative;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 .b-absolute {
@@ -63,7 +63,7 @@
 
 .b-intro {
   width: 100%;
-  max-width: 1077px;
+  max-width: 800px;
   background-color: white;
   padding: 80px 40px;
   box-sizing: border-box;

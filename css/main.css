@@ -1,3 +1,134 @@
-.m-dev-Border{
-    border: 1px solid palevioletred;
+/* 專業服務與方案 */
+.m-dev-Border {
+  border: 1px solid palevioletred;
+  box-sizing: border-box;
 }
+.m-display {
+  padding: 10px 200px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.m-photo-display {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 40px 110px;
+}
+
+.m-photo-section {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.m-photo {
+  width: 60%;
+}
+
+.m-photo img {
+  width: 100%;
+}
+
+.m-photo-section-text {
+  position: absolute;
+  left: 50%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background-color: white;
+  line-height: 150%;
+  gap: 16px;
+}
+
+.m-photo2right {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.m-photo-section-text2 {
+  position: absolute;
+  left: 0%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background-color: white;
+  line-height: 150%;
+  gap: 16px;
+}
+
+.m-contact-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* 部落格精選 */
+
+/* 職涯諮詢成功案例 */
+
+/* 訂閱電子報 */
+.m-subscription {
+  position: relative;
+}
+
+.m-subscription-text {
+  background-color: white;
+  padding: 80px;
+  width: 60%;
+}
+
+.m-input {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  border: none;
+}
+.m-subscription-btn {
+  width: 96px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  color: #4b4b4b;
+  background-color: white;
+  padding: 8px 16px;
+  border: 1px solid black;
+  white-space: nowrap;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.m-subscription-btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* 與我聯繫 */
+.m-contact-info {
+  border-bottom: 1px solid #6c757d;
+}
+
+.td-flex{
+    border-bottom: 1px solid #6C757D;
+    padding: 20px;
+    text-align: left;
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.td-content{
+    display:flex;
+    width: 100%;
+    align-items: center;
+}
+.td-text{
+padding-left: 10px;}
+

@@ -12,7 +12,7 @@ body {
   font-size: clamp(3.25rem, 6vw, 7.5rem);
 }
 .h2 {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 .h3 {
   font-size: 1.75rem;
@@ -111,11 +111,58 @@ body {
     gap: 12px;
     line-height: 150%;
   }
+
+  .m-display {
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .m-photo-display {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 0px 10px;
+  }
+
+  .m-photo {
+    width: 100%;
+  }
+
+  .m-photo-section {
+    flex-direction: column;
+    position: static;
+    align-items: flex-start;
+  }
+
+  .m-photo-section-text {
+    position: static;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: white;
+    line-height: 150%;
+    gap: 16px;
+  }
+
+  .m-photo-section-text2 {
+    position: static;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: white;
+    line-height: 150%;
+    gap: 16px;
+  }
 }
 
 @media (max-width: 380px) {
-
-    .b-right {
+  .b-right {
     position: relative;
     width: 100%;
     height: 500px;
@@ -171,4 +218,13 @@ body {
 }
 .text-bold {
   font-weight: bold;
+}
+
+a {
+  display: inline-block;
+  transition: transform 0.3s ease; 
+}
+
+a:hover {
+  transform: scale(1.1);
 }
