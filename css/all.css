@@ -4,9 +4,24 @@
 @import url(./main.css);
 @import url(./reset.css);
 
-.h1 { font-size: 2.5rem; }
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.h1 { font-size: 7.5rem; }
 .h2 { font-size: 2rem; }
 .h3 { font-size: 1.75rem; }
 .h4 { font-size: 1.5rem; }
 .h5 { font-size: 1.25rem; }
 .h6 { font-size: 1rem; } 
+
+.text-blue{
+    color: #0027d5;
+}
+
+.text-black{
+    font-weight: 900;
+}
+.text-bold{
+    font-weight: bold;
+}

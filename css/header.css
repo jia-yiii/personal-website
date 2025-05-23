@@ -1,21 +1,61 @@
-.h-dev-Border{
-    border: 1px solid green;
+.h-dev-Border {
+  border: 1px solid green;
+  box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.d-header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    padding: 24px 80px;
+.header-d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 24px 80px;
 }
 
-.h-text{
-    font-weight: bold;
-    line-height: 150%;
+.h-text {
+  font-weight: bold;
+  line-height: 150%;
+}
+
+.b-photo-d {
+  display: flex;
+  width: 100%;
+}
+
+.b-left {
+  width: 50%;
+}
+
+.b-left img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 834px;
+  display: block;
+}
+
+.b-right {
+  width: 50%;
+  background-image: url("../image/photo/index/Hero Section2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  padding: 80px;
+  box-sizing: border-box;
+}
+
+.b-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.b-title {
+  line-height: 150%;
 }
