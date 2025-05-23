@@ -1,0 +1,21 @@
+.h-dev-Border{
+    border: 1px solid green;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.d-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 24px 80px;
+}
+
+.h-text{
+    font-weight: bold;
+    line-height: 150%;
+}
