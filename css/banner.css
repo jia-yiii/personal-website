@@ -43,6 +43,7 @@
 }
 .b-title {
   line-height: 150%;
+  text-align: center
 }
 
 .b-position {
@@ -73,4 +74,106 @@
   justify-content: center;
   gap: 8px;
   line-height: 150%;
+}
+
+/* 部落格-banner section */
+.display {
+  display: flex;
+   flex-direction: row;
+  align-items: center; 
+  gap: 24px;
+  border: 1px solid #6c757d;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-content: center;
+  gap: 24px;
+  padding: 80px 120px 80px 0px;
+  width: 100%;
+  max-width: 948px;
+}
+
+.imgdiv {
+  max-width: 948px;
+}
+.img {
+  display: block;
+  width: 100%;
+}
+
+.categories {
+  color: #0027d5;
+  line-height: 150%;
+}
+.radiusblue {
+  border-radius: 40px;
+  color: white;
+  background-color: #0027d5;
+  padding: 6px 12px;
+  width: 88px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.cardtop {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.banner-section-card {
+  width: 100%;
+  max-width: 636px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  width: 100%;
+  max-width: 636px;
+  line-height: 150%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2; 
+  box-sizing: border-box;
+}
+.readmore {
+  width: 96px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  color: #4b4b4b;
+  background-color: white;
+  padding: 8px 16px;
+  border: 1px solid black;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.readmore:hover {
+  background-color: blue;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+.sub-title {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  width: 100%;
 }
