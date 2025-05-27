@@ -1,2 +1,5 @@
-# personal-website
-練習架設個人網站
+## personal-website
+
+- 六角學院 - 30天軟體工程師體驗營最終任務
+
+練習切版、架設個人網站
