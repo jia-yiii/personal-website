@@ -133,7 +133,7 @@
   padding-left: 10px;
 }
 
-/* 部落格區 */
+/* 部落格 */
 
 .b-right-blog {
   position: relative;
@@ -159,13 +159,16 @@
   white-space: nowrap;
 }
 
-
 /* 卡片 */
+.blog-main{
+ padding: 40px 200px;
+ border: 1px solid #6c757d;
+}
 .card-area {
-  padding: 40px 200px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 24px;
+  padding: 40px 0px;
 }
 
 .card img {
@@ -192,6 +195,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  padding-top: 8px;
 }
 
 .card-discrip {
@@ -222,4 +226,101 @@
   white-space: nowrap;
   text-decoration: none;
   box-sizing: border-box;
+}
+
+/* blog-detail */
+
+.blog-detail-main {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 80px 20%;
+  border:1px solid #6c757d;
+}
+
+.blog-detail-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.blog-detail-section-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ol-css {
+  padding-left: 10px;
+}
+.blog-detail-section-point {
+  border-radius: 24px;
+  background-color: #ededed;
+  padding: 24px;
+}
+
+.blog-detail-changePage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.changeBtn {
+  width: 108px;
+  height: 40px;
+  border: 1px solid black;
+  color: #4b4b4b;
+  border-radius: 40px;
+  padding: 8px 16px;
+  white-space: nowrap;
+  display: flex;
+}
+
+.blog-detail-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 200px;
+  border: #6c757d;
+}
+
+.page{
+  background-color: white;
+  color: #4b4b4b;
+  border-radius: 40px;
+  padding: 8px 20px;
+  width: 328px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-count:hover{
+  color: blue;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.current-page{
+  color: blue;
+  transform: scale(1.1);
+}
+
+.search{
+  background-color: white;
+  color: #4b4b4b;
+  border: 1px solid #4b4b4b;
+  border-radius: 40px;
+  padding: 16px 48px 16px 16px;
+  width: 416px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+.search-input{
+  border: none;
+  width: 318px;
+  height: 24px;
 }
