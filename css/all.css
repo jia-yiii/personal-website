@@ -479,6 +479,13 @@ body {
   gap: 16px;
   width: 100%;
 }
+
+.search {
+  width: 100%;
+}
+.search-input {
+  width: 100%;
+}
 }
 
 @media (max-width: 380px) {
